@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
-function PlaceScreen() {
+export default function PlaceList() {
   const navigation = useNavigation();
   const renderPlace = ({item}) => (
     <View
@@ -22,7 +22,7 @@ function PlaceScreen() {
       }}>
       <TouchableOpacity
         activeOpacity={0.8}
-        onPress={() => navigation.push('Detail')}>
+        onPress={() => navigation.push('Main')}>
         <View style={{justifyContent: 'center'}}>
           <Image source={{uri: item.src}} style={styles.place} />
           <View style={styles.spaceBetween}>
@@ -130,5 +130,3 @@ const hotPlace = [
     src: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MTBfMTU0%2FMDAxNjYwMTA2OTI3ODM2.WAApm8iBHBfGNbpEqS3V162GDQyfbN2Qstx9kbjG2fog._yXJkvBr3ifRZBd1YKu6RhV4a8hA6KiTFYGCm0A97j0g.JPEG.hyeonji_13%2FIMG_1700.jpg&type=sc960_832',
   },
 ];
-
-export default PlaceScreen;

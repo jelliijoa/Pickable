@@ -11,10 +11,10 @@ import {useNavigation} from '@react-navigation/native';
 
 import PlaceList from '../components/PlaceList';
 
-function LikeScreen() {
+function CafeScreen() {
   return (
     <View style={styles.main}>
-      <Text style={styles.title}>♥ Likes ♥</Text>
+      <Text style={styles.title}>🧁Cafe🧁</Text>
       <View style={styles.bar}>
         <PlaceList />
       </View>
@@ -48,4 +48,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LikeScreen;
+export default CafeScreen;
