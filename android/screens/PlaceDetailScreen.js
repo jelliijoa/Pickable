@@ -40,8 +40,7 @@ function PlaceName() {
     return (
         <View style={styles.nameblock}>
             <View style={styles.review}>
-                <Text style={styles.placeNameText}> 을의 커피 </Text>
-
+                <Text style={styles.placeNameText}> 을의 커피                                      ❤️   ✔️</Text>
             </View>
         </View>
     )
@@ -58,7 +57,7 @@ function PlaceName() {
 function PlaceImage() {
     return (
         <TouchableOpacity activeOpacity={0.8}>
-            <Image style={styles.placeImage} source={require('../assets/logo.png')} />
+            <Image style={styles.placeImage} source={require('../assets/euls_coffee.jpg')} />
         </TouchableOpacity>
     );
 }
@@ -67,58 +66,24 @@ function PlaceInfo() {
     return (
         <View>
             <View style={styles.info}>
+                <Text style={styles.infoHead}>Information</Text>
                 <Score />
                 <Tag />
                 <Time />
                 <Location />
                 <SNS />
-
-
-
             </View>
 
             <Text></Text>
             <Text></Text>
             <View style={styles.info}>
-                <Text style={styles.infoText}>Review</Text>
-                <Text></Text>
+                <Text style={styles.reviewText}>Review</Text>
+                <Text style={styles.infoText}></Text>
 
                 <Review />
             </View>
         </View>
     )
-}
-
-function MENU() {
-    return (
-        <View style={styles.info}>
-            <View style={styles.menuName}>
-                <Text style={styles.menu}>아메리카노</Text>
-                <Text>--------------------------</Text>
-                <Text>4000</Text>
-            </View>
-            <View style={styles.menuName}>
-                <Text style={styles.menu}>카페라떼</Text>
-                <Text>--------------------------</Text>
-                <Text>4500</Text>
-            </View>
-            <View style={styles.menuName}>
-                <Text style={styles.menu}>요거트스무디</Text>
-                <Text>--------------------------</Text>
-                <Text>6000</Text>
-            </View>
-            <View style={styles.menuName}>
-                <Text style={styles.menu}>블루베리스무디</Text>
-                <Text>--------------------------</Text>
-                <Text>6000</Text>
-            </View>
-            <View style={styles.menuName}>
-                <Text style={styles.menu}>자몽티</Text>
-                <Text>--------------------------</Text>
-                <Text>5500</Text>
-            </View>
-        </View>
-    );
 }
 
 function Score() {
@@ -138,7 +103,7 @@ function Tag() {
         <TouchableOpacity activeOpacity={0.8}>
             <View style={styles.homepage}>
                 <Image style={styles.instaLogo} source={require('../assets/hashtag_logo.png')} />
-                <Text style={styles.tagText}>  #따뜻함 #아늑함</Text>
+                <Text style={styles.tagText}>  #따뜻함 #아늑함 #감성</Text>
             </View>
 
         </TouchableOpacity>
@@ -161,7 +126,7 @@ function Location() {
         <TouchableOpacity activeOpacity={0.8}>
             <View style={styles.homepage}>
                 <Image style={styles.instaLogo} source={require('../assets/location_logo.png')} />
-                <Text style={styles.infoText}>  서울 용산구 청파로47나길 13 1층</Text>
+                <Text style={styles.infoText}>  서울 용산구 청파로47나길 13, 1층</Text>
             </View>
         </TouchableOpacity>
     );
@@ -181,35 +146,35 @@ function Review() {
     return (
         <View style={styles.elem}>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
+                <Text style={styles.name}>jdkd00****</Text>
                 <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
             </View>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>sdfb12****</Text>
+                <Text style={styles.userComment}>와진짜 단호박타르트 개강추입니다..!!👍🏻</Text>
             </View>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>refd34****</Text>
+                <Text style={styles.userComment}>원목이 주는 감성이 포근하네요</Text>
             </View>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>bdfs56****</Text>
+                <Text style={styles.userComment}>서비스로 주시는 바나나 최고</Text>
             </View>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>rega78****</Text>
+                <Text style={styles.userComment}>생각보다 내부가 넓어요</Text>
             </View>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>yute91****</Text>
+                <Text style={styles.userComment}>산미가 적당해서 넘 맛있어요</Text>
             </View>
             <View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>erhs23****</Text>
+                <Text style={styles.userComment}>카공하기 좋은 카페!!</Text>
             </View><View style={styles.review}>
-                <Text style={styles.name}>jdkd****</Text>
-                <Text style={styles.userComment}>분위기 아늑하고 좋아요</Text>
+                <Text style={styles.name}>uyjg45****</Text>
+                <Text style={styles.userComment}>분위기 감성 넘쳐요~!</Text>
             </View>
         </View>
 
@@ -247,29 +212,40 @@ const styles = StyleSheet.create({
         backgroundColor: 'red',
         flexDirection: 'column',
     },
-    infoText: {
-        fontSize: 15,
+    reviewText: {
+        fontSize: 16,
         color: 'black',
-        paddingBottom: 3,
+        fontWeight: 'bold',
+    },
+    infoHead: {
+        fontSize: 16,
+        color: 'black',
+        fontWeight: 'bold',
+        paddingBottom: 25,
+    },
+    infoText: {
+        fontSize: 14,
+        color: 'black',
+        paddingBottom: 12,
     },
     tagText: {
-        fontSize: 15,
-        color: '#5aa0c8',
-        paddingBottom: 3,
+        fontSize: 14,
+        color: '#5D80C6',
+        paddingBottom: 12,
     },
     nameblock: {
-        padding: 16,
-        backgroundColor: '#e6e6e6',
+        padding: 12,
+        backgroundColor: '#DAE6FF',
         alignItems: 'center',
         justifyContent: 'center',
-
+        borderBottomWidth: 0.5,
         borderBottomColor: 'black',
-        borderBottomWidth: 2.0
     },
     placeNameText: {
-        fontSize: 24,
+        fontSize: 20,
+        fontWeight: 'bold',
         color: '#323232',
-        paddingHorizontal: 60,
+        marginHorizontal: 10,
 
     },
     place: {
@@ -282,7 +258,7 @@ const styles = StyleSheet.create({
     placeImageAlign: {
         alignItems: 'center',
         justifyContent: 'center',
-
+        paddingBottom: 30,
     },
     placeImage: {
         /* flex: 1,
@@ -297,6 +273,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         borderColor: 'gray',
         borderWidth: 2.0,
+        marginTop: 5,
+        marginBottom: 15,
     },
     info: {
         fontSize: 20,
@@ -324,28 +302,19 @@ const styles = StyleSheet.create({
     },
     review: {
         flexDirection: 'row',
-
     },
     name: {
+        paddingTop: 5,
         paddingLeft: 10,
-        backgroundColor: '#eee',
     },
-    menu: {
-        flexDirection: 'row',
-        width: 100,
-        height: 30,
-
-    },
-    menuName: {
+    uName: {
         flexDirection: 'row',
         /*paddingLeft: 2,*/
     },
     userComment: {
         paddingLeft: 20,
-        paddingBottom: 10,
-        paddingTop: 10,
-
-
+        paddingBottom: 15,
+        paddingTop: 5,
     }
 
 });

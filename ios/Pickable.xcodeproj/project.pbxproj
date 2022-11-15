@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		343384C5C2FFA8DC7DC57C79 /* Pods_Pickable_PickableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4D493B21DC6ADDDB5E1DDC /* Pods_Pickable_PickableTests.framework */; };
+		7DA3D7BC158A34A999A80DB7 /* libPods-Pickable-PickableTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505FF17E4021377A1B9F51FF /* libPods-Pickable-PickableTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F46DFA2E33540A967706A691 /* Pods_Pickable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137D903377F43245B1D35328 /* Pods_Pickable.framework */; };
+		8308F33F4F3C7B58AC282167 /* libPods-Pickable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE330A227867C23E110E40B9 /* libPods-Pickable.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		00E356EE1AD99517003FC87E /* PickableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PickableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickableTests.m; sourceTree = "<group>"; };
-		137D903377F43245B1D35328 /* Pods_Pickable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pickable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Pickable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Pickable/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Pickable/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,11 +37,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pickable/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Pickable/main.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Pickable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickable.debug.xcconfig"; path = "Target Support Files/Pods-Pickable/Pods-Pickable.debug.xcconfig"; sourceTree = "<group>"; };
+		505FF17E4021377A1B9F51FF /* libPods-Pickable-PickableTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pickable-PickableTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-Pickable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickable.release.xcconfig"; path = "Target Support Files/Pods-Pickable/Pods-Pickable.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Pickable-PickableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickable-PickableTests.debug.xcconfig"; path = "Target Support Files/Pods-Pickable-PickableTests/Pods-Pickable-PickableTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pickable/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Pickable-PickableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickable-PickableTests.release.xcconfig"; path = "Target Support Files/Pods-Pickable-PickableTests/Pods-Pickable-PickableTests.release.xcconfig"; sourceTree = "<group>"; };
-		DF4D493B21DC6ADDDB5E1DDC /* Pods_Pickable_PickableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pickable_PickableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE330A227867C23E110E40B9 /* libPods-Pickable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pickable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7978A642923DED5008808C3 /* Pickable-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pickable-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343384C5C2FFA8DC7DC57C79 /* Pods_Pickable_PickableTests.framework in Frameworks */,
+				7DA3D7BC158A34A999A80DB7 /* libPods-Pickable-PickableTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46DFA2E33540A967706A691 /* Pods_Pickable.framework in Frameworks */,
+				8308F33F4F3C7B58AC282167 /* libPods-Pickable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +93,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				E7978A642923DED5008808C3 /* Pickable-Bridging-Header.h */,
 			);
 			name = Pickable;
 			sourceTree = "<group>";
@@ -100,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				137D903377F43245B1D35328 /* Pods_Pickable.framework */,
-				DF4D493B21DC6ADDDB5E1DDC /* Pods_Pickable_PickableTests.framework */,
+				DE330A227867C23E110E40B9 /* libPods-Pickable.a */,
+				505FF17E4021377A1B9F51FF /* libPods-Pickable-PickableTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +210,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -511,6 +513,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Pickable;
+				SWIFT_OBJC_BRIDGING_HEADER = "Pickable-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Pickable;
+				SWIFT_OBJC_BRIDGING_HEADER = "Pickable-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

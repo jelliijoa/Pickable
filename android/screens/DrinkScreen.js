@@ -14,7 +14,6 @@ import PlaceList from '../components/PlaceList';
 function DrinkScreen() {
   return (
     <View style={styles.main}>
-      <Text style={styles.title}>🍺Drink🍺</Text>
       <View style={styles.bar}>
         <PlaceList />
       </View>

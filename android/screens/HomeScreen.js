@@ -16,7 +16,7 @@ function LikeButton() {
   return (
     <TouchableOpacity
       activeOpacity={0.8}
-      onPress={() => navigation.push('Like')}>
+      onPress={() => navigation.push('Likes')}>
       <Text style={{fontSize: 18, marginHorizontal: 10, marginVertical: 10}}>
         ❤️
       </Text>
@@ -86,7 +86,7 @@ function RandomImage() {
     <TouchableOpacity
       activeOpacity={0.8}
       onPress={() => navigation.push('Random')}>
-      <Image style={styles.place} source={require('../assets/logo.png')} />
+      <Image style={styles.place} source={require('../assets/halflogo.png')} />
       <View style={styles.info}>
         <Text>제목</Text>
         <Text>설명블라블라</Text>
@@ -101,7 +101,7 @@ function HomeScreen() {
       <View style={styles.searchBar}>
         <Image
           style={styles.logoStyle}
-          source={require('../assets/logo.png')}
+          source={require('../assets/halflogo.png')}
         />
         <TextInput
           style={styles.input}

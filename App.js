@@ -16,6 +16,7 @@ import MapScreen from './android/screens/MapScreen';
 import CourseScreen from './android/screens/CourseScreen';
 import MyPageScreen from './android/screens/MyPageScreen';
 import PlaceScreen from './android/screens/PlaceScreen';
+import PScreen from './android/screens/PScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -24,7 +25,7 @@ function Main() {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      screenOptions={{tabBarActiveTintColor: '#77A5FF'}}>
+      screenOptions={{tabBarActiveTintColor: '#89ACF2'}}>
       <Tab.Screen
         name="Home"
         component={HomeScreen}
@@ -85,29 +86,24 @@ export default function App() {
           options={{headerShown: false}}
         />
         <Stack.Screen
-          name="Like"
+          name="Likes"
           component={LikeScreen}
-          options={{headerShown: false}}
         />
         <Stack.Screen
           name="Cafe"
           component={CafeScreen}
-          options={{headerShown: false}}
         />
         <Stack.Screen
           name="Drink"
           component={DrinkScreen}
-          options={{headerShown: false}}
         />
         <Stack.Screen
           name="Restaurant"
           component={RestaurantScreen}
-          options={{headerShown: false}}
         />
         <Stack.Screen
           name="Etc"
           component={EtcScreen}
-          options={{headerShown: false}}
         />
         <Stack.Screen
           name="Random"

@@ -14,7 +14,6 @@ import PlaceList from '../components/PlaceList';
 function LikeScreen() {
   return (
     <View style={styles.main}>
-      <Text style={styles.title}>♥ Likes ♥</Text>
       <View style={styles.bar}>
         <PlaceList />
       </View>

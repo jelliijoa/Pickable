@@ -14,7 +14,6 @@ import PlaceList from '../components/PlaceList';
 function EtcScreen() {
   return (
     <View style={styles.main}>
-      <Text style={styles.title}>👀Etc👀</Text>
       <View style={styles.bar}>
         <PlaceList />
       </View>

@@ -76,7 +76,7 @@ const hotPlace = [
   {
     id: '1',
     name: '을의커피',
-    hashtag: '#카공',
+    hashtag: '#따뜻함 #아늑함',
     score: '4.8',
     src: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MDVfNzQg%2FMDAxNjIyODczMzMxNzc3.qHCrrD8Gnq_R-UGhwtL6njOGzr13-4lSL1jdS9dLtrgg.-1AJqH0cKtDlzzW7mMoJMvKYzIq9u_QsTv86NDXpjosg.JPEG.kskxox111%2FIMG_7161.jpg&type=sc960_832',
   },
